@@ -8,4 +8,4 @@ spring:
     config:
       server:
         git:
-          uri: ${PROPERTIES_URI:https://github.com/dehemart/erp-config}
+          uri: ${PROPERTIES_URI:https://github.com/dehemart/erp-properties}
