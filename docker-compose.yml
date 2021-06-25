@@ -6,4 +6,4 @@ services:
     ports:
       - 8888:8888
     environment:
-      - PROPERTIES_URI: https://github.com/dehemart/erp-properties
+      PROPERTIES_URI: "https://github.com/dehemart/erp-properties"
