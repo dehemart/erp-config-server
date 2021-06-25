@@ -20,3 +20,9 @@ $ docker build --build-arg JAR_FILE=target/*.jar -t dehemart/erp-config-server:l
 ```
 $ docker-compose up -d
 ```
+
+## Deploy Docker image
+Setting version in pom.xml and:
+```shell
+$ mvn clean install
+```
