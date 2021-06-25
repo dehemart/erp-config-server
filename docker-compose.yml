@@ -1,7 +1,9 @@
 version: '3'
 services:
   config-server:
-    image: dehemart/erp-config-server:latest
+    image: dehemart/erp-config-server:0.0.3
     container_name: erp-config-server
     ports:
       - 8888:8888
+    environment:
+      - PROPERTIES_URI: https://github.com/dehemart/erp-properties
