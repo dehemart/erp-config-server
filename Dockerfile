@@ -1,5 +1,5 @@
 FROM openjdk:11-jdk-slim
 VOLUME /tmp
-ARG JAR_FILE
-COPY ${JAR_FILE} app.jar
+
+COPY ./target/erp-config-server-*.jar app.jar
 ENTRYPOINT ["java","-jar","/app.jar"]
