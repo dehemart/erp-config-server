@@ -1,8 +1,8 @@
 version: '3.4'
 services:
-  config-server:
+  erp-config:
     image: dehemart/erp-config-server:latest
-    container_name: erp-config-server
+    container_name: erp-config
     ports:
       - 8888:8888
     environment:
