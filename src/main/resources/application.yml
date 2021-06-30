@@ -9,11 +9,3 @@ spring:
       server:
         git:
           uri: ${PROPERTIES_URI:https://github.com/dehemart/erp-properties}
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: ${EUREKA_URI:http://192.168.1.169:8761/eureka}
-  instance:
-    preferIpAddress: true
-

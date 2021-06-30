@@ -8,4 +8,3 @@ services:
     environment:
       PORT: 8888
       PROPERTIES_URI: "https://github.com/dehemart/erp-properties"
-      EUREKA_URI: "http://192.168.1.169:8761/eureka"
